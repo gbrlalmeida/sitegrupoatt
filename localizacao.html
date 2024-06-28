@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização - GRUPO ATT</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html">
+                <img src="img/grupoatt-1-Photoroom.png" alt="GRUPO ATT" class="logo">
+            </a>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="politicas.html">Políticas</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="parceiros.html">Parceiros</a></li>
+                </ul>
+                <div id="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="localizacao" class="section">
+        <div class="container">
+        </br>
+          <h2>Localizações</h2>
+          <div class="localizacao-intro">
+            <h4 class="localizacao-subtitle">A Unidades da ATT estão localizadas estrategicamente, junto à Malha Ferroviária Norte, conectada ao porto de Santos (SP), e à Malha Sul, conectada aos portos de Paranaguá (PR) e São Francisco do Sul (SC). Além disso, têm ótimo acesso rodoviário ao interior do Paraná, São Paulo, Mato Grosso do Sul e Mato Grosso. Isso garante à ATT a capacidade de atuar no escoamento das safras para exportação, e na interiorização de produtos oriundos de importação.</h4>
+            <img src="img/malha-sul-1-1-1024x851.jpg" alt="Malha Sul" class="localizacao-image-intro">
+          </div>
+        </br>
+    </br>
+          <div class="localizacao-grid">
+            <!-- Unidade Londrina -->
+            <div class="localizacao-item">
+              <div class="localizacao-image">
+                <img src="img/DJI_0287-3-1-scaled.jpg" alt="Unidade Londrina">
+              </div>
+              <div class="localizacao-content">
+                <h3>Unidade Londrina</h3>
+                <p>Rua Primo Campana, 635<br>Londrina, PR, Brasil</p>
+                <!-- Mapa -->
+                <div id="mapLondrina"></div>
+              </div>
+            </div>
+      
+            <!-- Unidade Chapadão do Sul -->
+            <div class="localizacao-item">
+              <div class="localizacao-image">
+                <img src="img/DJI_0061-scaled-1.jpg" alt="Unidade Chapadão do Sul">
+              </div>
+              <div class="localizacao-content">
+                <h3>Unidade Chapadão do Sul</h3>
+                <p>Rod. MS 306 Km 120, Sala 02, Galpão Rodoferroviário<br>Chapadão do Sul, MS, Brasil</p>
+                <!-- Mapa -->
+                <div id="mapChapadao"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </br>
+</br>
+      </section>
+  
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; GRUPO ATT. Todos os direitos reservados.</p>
+            <ul class="social">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
